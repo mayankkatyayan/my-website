@@ -5,12 +5,13 @@
 */
 "use client"
 
-import { JSX, SVGProps, JSX, SVGProps, JSX, SVGProps, JSX, SVGProps, JSX, SVGProps, JSX, SVGProps, useEffect } from "react"
+//import { JSX, SVGProps, JSX, SVGProps, JSX, SVGProps, JSX, SVGProps, JSX, SVGProps, JSX, SVGProps, useEffect } from "react"
 import Link from "next/link"
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
+import { SVGProps, useEffect } from "react"
 
 export function HomePage() {
   useEffect(() => {}, [])
