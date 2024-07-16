@@ -5,7 +5,7 @@
 */
 "use client"
 
-import { useEffect } from "react"
+import { JSX, SVGProps, JSX, SVGProps, JSX, SVGProps, JSX, SVGProps, JSX, SVGProps, JSX, SVGProps, useEffect } from "react"
 import Link from "next/link"
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
@@ -265,7 +265,7 @@ export function HomePage() {
   )
 }
 
-function DribbbleIcon(props) {
+function DribbbleIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -288,7 +288,7 @@ function DribbbleIcon(props) {
 }
 
 
-function GitlabIcon(props) {
+function GitlabIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -308,7 +308,7 @@ function GitlabIcon(props) {
 }
 
 
-function LinkedinIcon(props) {
+function LinkedinIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -330,7 +330,7 @@ function LinkedinIcon(props) {
 }
 
 
-function MailIcon(props) {
+function MailIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -351,7 +351,7 @@ function MailIcon(props) {
 }
 
 
-function PhoneIcon(props) {
+function PhoneIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -371,7 +371,7 @@ function PhoneIcon(props) {
 }
 
 
-function XIcon(props) {
+function XIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
